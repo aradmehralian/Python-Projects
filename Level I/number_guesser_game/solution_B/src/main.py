@@ -35,8 +35,6 @@ def main():
             else:
                 print("Thanks for playing. Hope you had fun!")
                 break
-            
-
         else:
             provide_hint(user_guess, number_to_guess)
             scorer.decrement_score()
