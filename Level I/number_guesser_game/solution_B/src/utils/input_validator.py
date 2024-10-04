@@ -12,7 +12,7 @@ def get_valid_input(start: int, end: int) -> (int|str):
     """
 
     while True:
-        user_input = input("Enter a number: ")
+        user_input = input("Enter your number: ")
         if user_input == 'q':
             print("Thanks for playing the game, Goodbye!")
             return 'q'
