@@ -1,4 +1,7 @@
-def get_valid_input():
+def get_valid_input() -> str:
+    """
+    gets the valid input from the user
+    """
     
     options = ['rock', 'paper', 'scissors']
     while True:
