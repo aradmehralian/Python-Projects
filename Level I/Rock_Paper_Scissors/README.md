@@ -15,11 +15,15 @@ This is a simple Rock Paper Scissors game that you can play against the computer
 ## How to Play
 1. Clone the repository to your local machine using the following command:
     ```bash
-    git clone [repository_url]
+    git clone https://github.com/aradmehralian/Python-Projects.git
     ``` 
+2. Navigate to the `Rock_Paper_Scissors' directory:
+    ```bash
+    cd "Level I/Rock_Paper_Scissors"
+    ```
 
-2. Run the game using the following command:
+3. Run the game using the following command:
     ```bash
     python src/main.py
     ```
-3. Follow the on-screen instructions to play the game.
+4. Follow the on-screen instructions to play the game.
