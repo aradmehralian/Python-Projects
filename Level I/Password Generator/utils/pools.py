@@ -1,4 +1,4 @@
-from .constants import _DIGITS, _LETTERS, _SYMBOLS
+from .characters import _DIGITS, _LETTERS, _SYMBOLS
 
 
 def build_char_pool(include_digits=False, include_symbols=False) -> str:
