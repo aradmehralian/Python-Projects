@@ -11,24 +11,27 @@ def main():
     number_to_guess = generate_random_number(first_number, last_number)
     scorer = Scorer()
     print("Welcome to our number guesser game.")
-    print(f"We're going to pick a number between {first_number} and {last_number}. Try to guess it!")
+    print(
+        f"We're going to pick a number between {first_number} and {last_number}. Try to guess it!"
+    )
     print("Let's begin !")
     print("-" * 25)
 
-
     while True:
         user_guess = get_valid_input(first_number, last_number)
-        if user_guess == 'q':
+        if user_guess == "q":
             break
         scorer.attempts += 1
 
         if user_guess == number_to_guess:
             print("Congratulations, you win!")
             print(f"Your guess, {user_guess}, is correct!")
-            print(f"You took {scorer.attempts} attempts and your final score is {scorer.get_score()}.")
+            print(
+                f"You took {scorer.attempts} attempts and your final score is {scorer.get_score()}."
+            )
             repeat_game = repeat_game_validate()
-            
-            if repeat_game == 'y':
+
+            if repeat_game == "y":
                 number_to_guess = generate_random_number(first_number, last_number)
                 scorer.reset_score()
                 continue

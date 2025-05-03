@@ -14,7 +14,7 @@ In this project, a number guesser game is implemented. The program will generate
     - `main.py`: Main script to run the number guesser game.
 
 ## How to run the game
-1. Navigate to the main directory of the project.(`number_guesser_game`)
+1. Navigate to the main directory of the project.(`Number Guesser Game`)
 2. Add the current directory to the python path.
 
     ```bash
@@ -25,4 +25,5 @@ In this project, a number guesser game is implemented. The program will generate
     ```bash
     python src/main.py
     ```
+    
 4. Follow the instructions on the screen to play the game.

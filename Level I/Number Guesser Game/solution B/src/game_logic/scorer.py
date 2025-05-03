@@ -19,7 +19,7 @@ class Scorer:
         Return the user's current score.
         """
         return self.score
-    
+
     def reset_score(self) -> None:
         """
         Resets the scoring system to its initial state.

@@ -1,5 +1,4 @@
 def provide_hint(user_guess: int, actual_number: int) -> None:
-
     """
     Provide a hint to the user based on their guess and the actual number.
 
@@ -10,7 +9,7 @@ def provide_hint(user_guess: int, actual_number: int) -> None:
     returns:
         None
     """
-    
+
     if user_guess < actual_number:
         print("Your guess is too low. Try again!")
     else:
