@@ -1,5 +1,5 @@
-from game import RockPaperScissors
-from intro import intro_message
+from utils.game import RockPaperScissors
+from utils.intro import intro_message
 
 
 def main():

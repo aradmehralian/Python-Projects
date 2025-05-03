@@ -3,10 +3,10 @@ This is a simple Rock Paper Scissors game that you can play against the computer
 
 ## Project Structure
 
-- `src/`: Contains the source code for the game.
-    - `main.py`: The main script that runs the game.
+- `utils/`: Contains the source code for the game.
     - `game.py`: Contains the game logic.
     - `intro.py`: Contains the introduction text for the game.
+- `main.py`: The main script that runs the game.
 - `README.md`: The README file for the project.
 
 ## Requirements
@@ -17,13 +17,13 @@ This is a simple Rock Paper Scissors game that you can play against the computer
     ```bash
     git clone https://github.com/aradmehralian/Python-Projects.git
     ``` 
-2. Navigate to the `Rock_Paper_Scissors' directory:
+2. Navigate to the `Rock Paper Scissors' directory:
     ```bash
-    cd "Level I/Rock_Paper_Scissors"
+    cd "Level I/Rock Paper Scissors"
     ```
 
 3. Run the game using the following command:
     ```bash
-    python src/main.py
+    python main.py
     ```
 4. Follow the on-screen instructions to play the game.
