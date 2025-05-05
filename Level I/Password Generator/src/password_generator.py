@@ -1,23 +1,13 @@
 from abc import ABC, abstractmethod
-import json
 from typing import List
 import secrets
 
 
 from utils.characters import _DIGITS
 from utils.pools import build_char_pool
-
+from utils.data_loader import load_vocabulary
 
 __all__ = ["PinCodeGenerator", "RandomPasswordGenerator", "MemorablePasswordGenerator"]
-
-
-def load_vocabulary() -> List[str]:
-    """
-    Load and return a list of sample words from `data/`
-    """
-
-    with open("data/sample words.txt") as f:
-        return json.load(f)
 
 
 class PasswordGenerator(ABC):
@@ -93,7 +83,5 @@ class MemorablePasswordGenerator(PasswordGenerator):
 
     def _validate_length(self, num_words: int) -> int:
         if (not isinstance(num_words, int)) or (num_words < 0):
-            raise ValueError(
-                "Number of words must be a non-negative integer"
-            )
+            raise ValueError("Number of words must be a non-negative integer")
         return num_words
