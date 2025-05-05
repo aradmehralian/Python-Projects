@@ -1,9 +1,10 @@
 import json
+
 import nltk
 from nltk.corpus import words
 
 
-def filter_words():
+def save_words():
     """
     Get the words in the NLTK's words corpus and filter based on length.
     Save the filtered list to `data/sample words.txt`
@@ -19,4 +20,4 @@ def filter_words():
 
 
 if __name__ == "__main__":
-    filter_words()
+    save_words()

@@ -1,5 +1,5 @@
 import json
-from types import List
+from typing import List
 
 
 def load_vocabulary() -> List[str]:
